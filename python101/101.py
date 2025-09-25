@@ -18,3 +18,39 @@ tuna = 5
 print (tuna + 20) # returned 25
 bacon = 15
 print(bacon/tuna)
+
+## VIDEO 3 AND 4
+# VIDEO 3
+# STRINGS - 
+# string, sequence of character
+#  encompass with single or double quote
+'STRING' # single quote
+"keep going" #double quote
+#'i don't think she is 18 '# double is required instead
+"i don't think she is 18!" # double quote or
+'i don\'t think she is 18' # include back slash b4 pseudo string quote
+# back slash means special meaning
+print(r'C:\owner\desktop\uthman')# r(raw string) cancel the special meaning
+
+# strings can also be stored as a variable just like number
+# as well as add together
+firstName = "bucky "
+firstName + "roberts"
+
+print(firstName + "Roberts")
+# strings can also be multiplied
+print(firstName * 5)#result buckybuckybuckybucky
+#VIDEO 4
+# string continues
+
+# how to get each character from a string
+
+user = "Tuna MeFish"
+print(user[0]) # computer counts from zero instead of 1
+
+print(user[-1]) # starts counting from the back
+print(user[2 : 7])# slice start and stop on 7th without actually slice the 7th
+print(user[2:])
+print(len('Tuna MeFish')) # len() for length of a string or variable
+print(len(user))
+
