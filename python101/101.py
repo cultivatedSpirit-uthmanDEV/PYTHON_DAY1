@@ -1,3 +1,4 @@
+#DAY_1 
 # VIDEO 1 AND 2
 
 print(3+2) # result equals 5
@@ -18,7 +19,7 @@ tuna = 5
 print (tuna + 20) # returned 25
 bacon = 15
 print(bacon/tuna)
-
+# DAY_2
 ## VIDEO 3 AND 4
 # VIDEO 3
 # STRINGS - 
@@ -53,4 +54,29 @@ print(user[2 : 7])# slice start and stop on 7th without actually slice the 7th
 print(user[2:])
 print(len('Tuna MeFish')) # len() for length of a string or variable
 print(len(user))
+
+#DAY_3
+## List - CHARACTERIZED WITH SQUARE BRACKET
+
+
+players = [23,45,11,7,9]
+print(players[2]) # position starts from 0
+
+players[2] = 20 # alteration of value in list
+print(players)
+
+print(players + [13,90,46]) #addition of values to 
+#an existing list but donot add permanently
+print(players)
+print(players.append(120))
+
+# list slicing
+
+print(players[:2])
+players[:2] = [0,0] ## replace slice value with another
+print(players) 
+
+players[:] = []
+print(players)
+
 
