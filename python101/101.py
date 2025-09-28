@@ -108,3 +108,40 @@ for f in food:
 for f in food[:2]:
     print(f)
     print(len(f))
+
+    ## Arrange  of number _ loop without list
+for x in range(10):
+   print("bucky is awesome")
+for y in range(2,20,2):
+   print (y)
+
+   ## while loop
+
+name = 5
+
+'''while name < 10:
+ ##  print('i love this')
+     name += 1
+
+     ## Break and continue'''
+
+magicNumber = 26
+
+for n in range(101):
+   if n is magicNumber:
+      print(n,"is the magic number")
+      break
+   else:
+      print(n)
+
+      ## ASSINMENT
+'''loop through a 100 and pronoune a num that
+is a multiple of 4'''
+
+for v in range(101):
+   if  v%4 is 0:
+      print(v)
+
+
+
+
