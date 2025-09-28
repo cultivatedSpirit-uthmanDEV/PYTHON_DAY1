@@ -79,4 +79,32 @@ print(players)
 players[:] = []
 print(players)
 
+#DAY_4
+## if statement
 
+age = 13
+if age < 21:
+  print("no bear for you")
+
+name = "uthman"
+
+if name is "bucky":
+   print("Hey there bucky")
+elif name is "lucky":
+   print("what's up luzemburg")
+elif name is "puncky":
+   print("what's up sodiq")
+else:
+   print('no way home')## returned "no way home"
+
+ ## List and loop
+
+food = ['bacon','tuna','ham','snausages','beef']
+
+for f in food:
+   print(f)
+   print(len(f))
+
+for f in food[:2]:
+    print(f)
+    print(len(f))
