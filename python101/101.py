@@ -142,6 +142,48 @@ for v in range(101):
    if  v%4 is 0:
       print(v)
 
+      ## continue
+     
+numbersTaken =  [2,4,16,5,9,10]
+for n in range(1,20):
+   if n in numbersTaken:
+      continue
+   print(n)
+
+
+   ## Function
+   ## contains lines of code that can be called time and 
+   # time again
+
+def beef():
+   print('python is getting interesting')
+
+beef()
+
+def bitCoin_to_usd(btc):
+   amount = btc * 527
+   print(amount)
+
+
+bitCoin_to_usd(3.85)## 3.85usd_
+#2028.95btc
+
+## return statement
+
+def allowed_dating_age(my_age):
+   girls_age = my_age/2 + 7
+   return girls_age
+
+buckys_limit = allowed_dating_age(27)
+Bosses_limit = allowed_dating_age(37)
+print("Bucky can date girls"
+,buckys_limit,"or older")
+
+print("Bucky can date girls",Bosses_limit,"or older")
+
+
+
+
 
 
 
