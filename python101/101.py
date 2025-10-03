@@ -182,7 +182,54 @@ print("Bucky can date girls"
 print("Bucky can date girls",Bosses_limit,"or older")
 
 
+## Excercises
+import math
+def temp_to_kelvin(cel):
+   Kelvin = cel + 273.15
+   print((Kelvin))
 
+temp_to_kelvin(25) ## 298.15K
+
+def temp_to_fahrenheit(cel):
+   fahrenheit = cel * 9/5 + 32
+   print(fahrenheit)
+
+temp_to_fahrenheit(25) ## 77.0F
+
+## Function continues
+## assign default 
+
+def get_gender(sex='Unknown'):
+   if sex is "m":
+      sex = "Male"
+   elif sex is "f":
+      sex = "Female"
+   print(sex)
+
+get_gender("m") 
+get_gender("f") 
+get_gender() 
+   
+a = 7345
+
+def corn():
+   print(a)
+
+def fudge():
+   print(a)
+
+corn()
+fudge() ## variable within a function scope can only be
+## used in the function and vice versa
+
+##  
+
+def dumb_sentence(name='bucky', action='ate',item='tuna'):
+   print(name,action,item)
+
+
+dumb_sentence()
+dumb_sentence(action='is',item='awesome')
 
 
 
