@@ -22,3 +22,11 @@ buckys_data[1], buckys_data[2])
 
 health_calculator(*buckys_data)
 
+## Self assess
+
+clothes = {'plain_clothes','damask','basket','alabe'}
+if 'damask' in clothes:
+    print('i love damask')
+else:
+   print("i don't want anything")
+
