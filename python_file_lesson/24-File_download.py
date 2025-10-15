@@ -10,7 +10,7 @@ def download_worldbank_data(csv_url):
   dest_url = r'goog.csv'
   fx = open(dest_url, "w")
   for line in lines:
-      fx.write(lines + "\n")
+      fx.write(line + "\n")
   fx.close()
 
 
