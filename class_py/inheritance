@@ -1,0 +1,21 @@
+class Parent():
+
+  def Print_last_name(self):
+     print("Wasiu")
+
+class Child(Parent):
+   
+   def print_First_name(self):
+      print("Uthman")
+
+      
+      ## overiding
+
+
+   def Print_last_name(self):
+      print("adebayo")
+
+name = Child()
+
+name.print_First_name()
+name.Print_last_name()
