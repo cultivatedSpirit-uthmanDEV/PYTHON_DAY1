@@ -37,3 +37,8 @@ def german_name_list(item_url):
 
 
 german_name_list("https://listophile.com/names/nationality/german/")
+
+
+## web_scrapping continues
+
+
