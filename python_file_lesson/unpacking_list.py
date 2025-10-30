@@ -21,4 +21,4 @@ def drop_first_last(grades):
   print(avg)
 
 drop_first_last([2,2,2,2,2])
-drop_first_last([20,122,82,42,12])
+drop_first_last([20 ,122,82,42,12])
