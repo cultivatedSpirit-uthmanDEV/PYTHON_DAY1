@@ -1,6 +1,6 @@
 ## Key and Value in Dictionary
 
-classmates = {'Tony': 'cool but smells','Emma': 'sits behind me','lucy': 'asks too many questions' }
+classmates = {'Tony ': 'cool but smells','Emma ': 'sits behind me','lucy ': 'asks too many questions' }
 
 print(classmates)
 

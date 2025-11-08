@@ -22,3 +22,5 @@ area = (50, 50, 100, 100)
 both_guys.paste(cover, area)
 
 both_guys.show()
+
+### color spilting
