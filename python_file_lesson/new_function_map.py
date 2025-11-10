@@ -1,3 +1,4 @@
+"""
 income = [10, 20, 75]
 
 def double_income(dollars):
@@ -5,6 +6,7 @@ def double_income(dollars):
   for x in dollars:
     doubled.append(x * 2)
   return doubled
+"""
 
 
 
@@ -35,3 +37,17 @@ def doubled_incomes(euros):
 
 new_incomes = list(map(doubled_incomes, incomes ))
 print(new_incomes)
+
+## Square the Numbers
+# Given a list [2, 4, 6, 8], return a new list with the squares of each number.
+
+
+number_one = [2,4,6,8]
+
+def number_function(number_square):
+   squared = []
+   for item in number_square:
+      squared.append(item ** 2)
+   return squared
+
+print(number_function(number_one))
